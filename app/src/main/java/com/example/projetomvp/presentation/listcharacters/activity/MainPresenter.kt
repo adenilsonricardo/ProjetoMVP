@@ -1,4 +1,4 @@
-package com.example.projetomvp.presentation.activity
+package com.example.projetomvp.presentation.listcharacters.activity
 
 class MainPresenter(
     private var view: MainContract.View?
