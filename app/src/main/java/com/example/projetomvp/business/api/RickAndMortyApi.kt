@@ -11,5 +11,5 @@ interface RickAndMortyApi {
 }
 
 object PathConstants{
-    const val CHARACTERS = "characters"
+    const val CHARACTERS = "character"
 }
