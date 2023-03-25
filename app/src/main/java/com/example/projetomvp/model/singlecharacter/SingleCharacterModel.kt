@@ -1,15 +1,15 @@
-package com.example.projetomvp.model
+package com.example.projetomvp.model.singlecharacter
 
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class CharactersModel(
+data class SingleCharacterModel(
     @SerialName("info")
     val info: Info,
     @SerialName("results")
-    val results: List<ResultApi>
+    val results: List<Result>
 ) {
     @Serializable
     data class Info(
@@ -24,7 +24,7 @@ data class CharactersModel(
     )
 
     @Serializable
-    data class ResultApi(
+    data class Result(
         @SerialName("created")
         val created: String,
         @SerialName("episode")

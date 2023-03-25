@@ -1,7 +1,7 @@
 package com.example.projetomvp.business.api
 
 import com.example.projetomvp.business.api.PathConstants.CHARACTERS
-import com.example.projetomvp.model.CharactersModel
+import com.example.projetomvp.model.listcharacters.CharactersModel
 import io.reactivex.Single
 import retrofit2.http.GET
 

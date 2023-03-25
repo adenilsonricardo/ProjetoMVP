@@ -1,10 +1,10 @@
-package com.example.projetomvp.presentation.fragment
+package com.example.projetomvp.presentation.listcharacters.fragment
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.projetomvp.databinding.CharactersItemBinding
-import com.example.projetomvp.model.CharactersModel.ResultApi
+import com.example.projetomvp.model.listcharacters.CharactersModel.ResultApi
 import com.squareup.picasso.Picasso
 
 class CharactersAdapter (private var list: List<ResultApi> = listOf()):

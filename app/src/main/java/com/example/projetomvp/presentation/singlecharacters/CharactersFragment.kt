@@ -1,4 +1,4 @@
-package com.example.projetomvp.presentation.fragment
+package com.example.projetomvp.presentation.singlecharacters
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,13 +7,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.projetomvp.databinding.FragmentCharactersBinding
-import com.example.projetomvp.model.CharactersModel
+import com.example.projetomvp.databinding.FragmentListCharactersBinding
+import com.example.projetomvp.model.listcharacters.CharactersModel
+import com.example.projetomvp.presentation.listcharacters.fragment.CharactersAdapter
 import org.koin.android.ext.android.inject
 import org.koin.core.parameter.parametersOf
 
 class CharactersFragment: Fragment(), CharactersContract.View {
-    private var _binding: FragmentCharactersBinding? = null
+    private var _binding: FragmentListCharactersBinding? = null
     private val binding get() = _binding!!
 
     private val presenter: CharactersContract.Presenter by inject{
@@ -30,7 +31,7 @@ class CharactersFragment: Fragment(), CharactersContract.View {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentCharactersBinding.inflate(inflater, container, false)
+        _binding = FragmentListCharactersBinding.inflate(inflater, container, false)
         return binding.root
     }
 

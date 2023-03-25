@@ -1,4 +1,4 @@
-package com.example.projetomvp.presentation.fragment
+package com.example.projetomvp.presentation.listcharacters.fragment
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.MutableLiveData

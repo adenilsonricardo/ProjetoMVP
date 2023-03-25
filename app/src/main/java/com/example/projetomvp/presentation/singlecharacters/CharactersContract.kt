@@ -1,6 +1,6 @@
-package com.example.projetomvp.presentation.fragment
+package com.example.projetomvp.presentation.singlecharacters
 
-import com.example.projetomvp.model.CharactersModel
+import com.example.projetomvp.model.listcharacters.CharactersModel
 
 interface CharactersContract {
     interface View {

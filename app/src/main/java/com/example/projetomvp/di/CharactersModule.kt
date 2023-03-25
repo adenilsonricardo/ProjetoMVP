@@ -2,10 +2,10 @@ package com.example.projetomvp.di
 
 import com.example.projetomvp.business.repository.RickAndMortyRepository
 import com.example.projetomvp.business.repository.RickAndMortyRepositoryImpl
-import com.example.projetomvp.presentation.activity.MainContract
-import com.example.projetomvp.presentation.activity.MainPresenter
-import com.example.projetomvp.presentation.fragment.CharactersContract
-import com.example.projetomvp.presentation.fragment.CharactersPresenter
+import com.example.projetomvp.presentation.listcharacters.activity.MainContract
+import com.example.projetomvp.presentation.listcharacters.activity.MainPresenter
+import com.example.projetomvp.presentation.listcharacters.fragment.CharactersContract
+import com.example.projetomvp.presentation.listcharacters.fragment.CharactersPresenter
 import org.koin.dsl.module
 
 class CharactersModule: FeatureModule() {

@@ -1,10 +1,10 @@
-package com.example.projetomvp.presentation.activity
+package com.example.projetomvp.presentation.listcharacters.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.projetomvp.R
 import com.example.projetomvp.databinding.ActivityMainBinding
-import com.example.projetomvp.presentation.fragment.CharactersFragment
+import com.example.projetomvp.presentation.listcharacters.fragment.CharactersFragment
 import org.koin.android.ext.android.inject
 import org.koin.core.parameter.parametersOf
 
